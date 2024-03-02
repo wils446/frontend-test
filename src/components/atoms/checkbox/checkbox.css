@@ -1,0 +1,19 @@
+input[type="checkbox"] {
+	accent-color: #3b82f6;
+}
+
+.checkbox-container {
+	padding: 0.5rem 0.2rem;
+	background-color: #eff6ff;
+	border-radius: 0.5rem;
+}
+
+.checkbox-container:hover {
+	cursor: pointer;
+	background-color: #bfdbfe;
+}
+
+.checkbox-container > input:hover,
+.checkbox-container > label:hover {
+	cursor: pointer;
+}

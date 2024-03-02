@@ -1,0 +1,15 @@
+.balance-statistics-container {
+	display: flex;
+	height: 11rem;
+	align-items: center;
+}
+
+.balance-statistics-label {
+	width: 8rem;
+}
+
+.statistics-chart {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}

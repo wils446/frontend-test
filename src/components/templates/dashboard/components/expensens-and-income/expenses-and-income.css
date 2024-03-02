@@ -1,0 +1,31 @@
+.expense-income-wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3px;
+}
+
+.expense-income-label {
+	display: flex;
+	flex-direction: column;
+}
+
+.expense-income-label > h6,
+.expense-income-label > h5 {
+	margin-top: -5px;
+}
+
+.income-label {
+	text-align: right;
+}
+
+.expense-income-bar-wrapper {
+	display: flex;
+	height: 1rem;
+	margin-top: 5px;
+}
+
+.expense-income-bar-wrapper > div {
+	border-radius: 0.2rem;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+}

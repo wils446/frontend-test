@@ -1,0 +1,33 @@
+.dashboard {
+	display: flex;
+	height: 100dvh;
+	width: 100vw;
+}
+
+.summary {
+	flex-grow: 1;
+	padding: 1rem;
+}
+
+.summary-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.data {
+	width: 24rem;
+	background-color: white;
+	padding: 1rem;
+}
+
+.margin-bottom {
+	margin-bottom: 1rem;
+}
+
+.summary-body {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 1.5rem;
+	gap: 1rem 0;
+}

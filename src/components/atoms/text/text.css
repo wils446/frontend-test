@@ -1,0 +1,41 @@
+.headline1 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 3rem;
+	line-height: 1;
+}
+
+.headline2 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+}
+
+.headline3 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
+
+.headline4 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.headline5 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+
+.headline6 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}

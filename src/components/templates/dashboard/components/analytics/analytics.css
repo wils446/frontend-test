@@ -1,0 +1,70 @@
+.progress-bar {
+	background-color: #e5e5e5;
+	height: 1rem;
+	border-radius: 0.2rem;
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 0.5rem;
+}
+
+.done-progress {
+	height: 100%;
+	width: 30%;
+	background-color: #3b82f6;
+}
+
+.in-progress {
+	height: 100%;
+	width: 30%;
+	background-color: #eab308;
+}
+
+.todo-progress {
+	height: 100%;
+	width: 30%;
+	background-color: #ef4444;
+}
+
+.legend {
+	display: flex;
+	justify-content: space-around;
+}
+
+.legend-container {
+	display: flex;
+	align-items: center;
+	padding: 0.2rem 0;
+}
+
+.done-dot {
+	height: 0.875rem;
+	width: 0.875rem;
+	border-radius: 50%;
+	background-color: #3b82f6;
+	margin-right: 0.2rem;
+}
+
+.in-progress-dot {
+	height: 0.875rem;
+	width: 0.875rem;
+	border-radius: 50%;
+	background-color: #eab308;
+	margin-right: 0.2rem;
+}
+
+.todo-dot {
+	height: 0.875rem;
+	width: 0.875rem;
+	border-radius: 50%;
+	background-color: #ef4444;
+	margin-right: 0.2rem;
+}
+
+.percent-label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 0;
+	flex-direction: column;
+}

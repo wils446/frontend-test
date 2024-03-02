@@ -1,0 +1,45 @@
+.transaction-list-container {
+	padding: 0.4rem 0;
+	display: flex;
+	align-items: center;
+}
+
+.transaction-list-wrap {
+	display: flex;
+	flex-direction: column;
+	height: 12rem;
+	overflow-y: auto;
+}
+
+.avatar {
+	height: 3rem;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+}
+
+.transaction-list-label {
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 1rem;
+}
+
+.border-bottom {
+	border: 0;
+	border-bottom-width: 0.1rem;
+	border-color: #dbeafe;
+	border-style: solid;
+}
+
+.last-transactions-label {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1rem;
+
+	border: 0;
+	border-bottom-width: 0.2rem;
+	border-color: #dbeafe;
+	border-style: solid;
+
+	margin-bottom: 0;
+}

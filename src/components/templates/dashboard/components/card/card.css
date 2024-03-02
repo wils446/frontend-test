@@ -1,0 +1,14 @@
+.card-container {
+	height: 10rem;
+}
+
+.card-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
